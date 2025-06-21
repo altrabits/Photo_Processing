@@ -42,3 +42,9 @@ The processed images with the background removed will be saved in the `removed_b
 The processed images now have the extension **webp**.
 
 > **Note**: This script uses **rembg** with **onnxruntime** for background removal.
+
+
+## Replace background color
+The `replace_background.py` script demonstrates how to replace an image background.
+It requires **opencv-python** as it uses **cv2** for image processing.
+Since no AI-based background detection is integrated, you will need to manually define the background color range to replace (i.e. for an image with white background the lower and upper bounds of white in the script).
