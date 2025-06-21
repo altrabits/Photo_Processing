@@ -39,5 +39,6 @@ Before using the script, prepare your images as follows:
 ### Running the removal tool
 After placing the edited images in the `to_remove_background`, run the script. 
 The processed images with the background removed will be saved in the `removed_background` folder.
+The processed images now have the extension **webp**.
 
 > **Note**: This script uses **rembg** with **onnxruntime** for background removal.
